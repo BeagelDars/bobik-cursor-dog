@@ -204,10 +204,6 @@ body {
   border-radius: 3px 3px 8px 8px;
   transform-origin: top center;
 }
-.hat-flap.front-flap { 
-  right: 14px; /* Directly over the visible ear */
-  transform: rotate(-5deg); 
-} 
 .hat-flap.back-flap { 
   left: 4px; /* Over the back ear */
   transform: rotate(10deg); 
@@ -226,7 +222,6 @@ body {
 
 /* -- RUNNING -- */
 .running .head { transform: rotate(5deg) translateY(2px); }
-.running .hat-flap.front-flap { transform: rotate(25deg); transition: transform 0.2s; }
 .running .hat-flap.back-flap { transform: rotate(40deg); transition: transform 0.2s; }
 .running .ear.right { transform: rotate(-10deg); }
 .running .ear.left { transform: rotate(-30deg); }
